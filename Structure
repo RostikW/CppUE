@@ -1,0 +1,47 @@
+#include <iostream>
+using  namespace std;
+
+struct Vector2D
+{
+    float x = 10;
+    float y = 12;
+};
+
+
+struct PlayerStats
+{
+    int heals;
+    int armor;
+    int mana;
+    Vector2D location;
+    
+}player1;
+
+struct AiStats
+{
+    int xp; 
+    int heals;
+    int Damage;
+    Vector2D location;
+   
+    
+}rat{100,25, {4}}, alien{100,50,33};
+
+
+
+
+int main ()
+   {
+     rat = alien;
+    cout << rat.Damage <<endl;
+    cout <<"Rat Location x = " << rat.location.x << endl;
+    cout <<"Rat Location x = " << rat.location.y << endl;
+
+    return 0;
+
+   }
+
+
+    
+    
+
