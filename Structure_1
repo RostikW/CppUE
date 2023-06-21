@@ -1,0 +1,19 @@
+#include <iostream>
+using  namespace std;
+
+struct GameStats
+{
+    int currentlevel = 3;
+    int gameScores [10] {1,2,3,4,5,6,7,8,9,10};
+};
+
+
+int main ()
+   {
+    GameStats game;
+    //game.gameScores[0] = 9;
+    cout << game.gameScores[0] <<endl;
+     
+    return 0;
+
+   }
